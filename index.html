@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="ckb" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>پارەکانم</title>
+<link rel="icon" type="image/png" sizes="192x192" href="data:image/png;base64,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">
+<link rel="apple-touch-icon" href="data:image/png;base64,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">
+
+<style>
+  :root{
+    --bg:#F2F4F0; --card:#fff; --ink:#15241D; --faint:#6B7A72; --line:#E1E6E1;
+    --green:#14532D; --red:#8C2F2F; --gold:#8A6A1F; --n1:#123B2A; --n2:#1C5C3F;
+  }
+  *{box-sizing:border-box; -webkit-tap-highlight-color:transparent}
+  body{margin:0; background:var(--bg); color:var(--ink);
+    font-family:Tahoma,'Segoe UI',sans-serif; padding-bottom:90px}
+  .wrap{max-width:480px; margin:0 auto; padding:16px 14px}
+
+  .note{border-radius:18px; padding:18px 18px 14px; color:#EAF3EC; position:relative;
+    background:linear-gradient(135deg,var(--n1),var(--n2)); box-shadow:0 8px 24px rgba(18,59,42,.28)}
+  .note::before{content:""; position:absolute; inset:6px; border-radius:13px;
+    border:1px dashed rgba(234,243,236,.35); pointer-events:none}
+  .note .cap{font-size:12px; letter-spacing:1px; opacity:.8; font-weight:700}
+  .note .big{font-size:36px; font-weight:800; margin:6px 0 2px; direction:ltr; text-align:right;
+    font-variant-numeric:tabular-nums}
+  .note .sub{font-size:11px; opacity:.75}
+  .mini{display:flex; gap:8px; margin-top:14px}
+  .mini div{flex:1; background:rgba(255,255,255,.10); border-radius:10px; padding:8px 10px}
+  .mini .l{font-size:11px; opacity:.8}
+  .mini .v{font-size:14px; font-weight:700; direction:ltr; text-align:right}
+
+  .rate{display:flex; align-items:center; gap:10px; background:var(--card);
+    border:1.5px solid var(--line); border-radius:14px; padding:10px 14px; margin-top:12px}
+  .rate .t{flex:1; font-size:13px; font-weight:700}
+  .rate .t small{display:block; font-weight:400; color:var(--faint); font-size:11px}
+  .rate input{width:110px; padding:12px; font-size:16px; font-weight:700; text-align:center;
+    direction:ltr; border:1.5px solid #E6D79A; border-radius:12px; background:#FFF9E0; outline:none}
+
+  .tabs{display:flex; gap:6px; margin-top:14px; background:#E8ECE7; padding:5px; border-radius:14px}
+  .tabs button{flex:1; padding:10px 4px; font:700 13.5px Tahoma; border:none; border-radius:10px;
+    background:transparent; color:var(--faint); cursor:pointer}
+  .tabs button.on{background:var(--card); box-shadow:0 2px 6px rgba(0,0,0,.08)}
+
+  .head{display:flex; align-items:center; margin:16px 2px 10px}
+  .head .t{flex:1}
+  .head .t b{font-size:16px}
+  .head .t small{display:block; font-size:12px; color:var(--faint)}
+  .head .add{color:#fff; border:none; border-radius:12px; padding:10px 18px;
+    font:800 14px Tahoma; cursor:pointer}
+
+  .panel{background:var(--card); border:1.5px solid var(--line); border-radius:16px;
+    padding:16px; margin-bottom:12px; box-shadow:0 6px 18px rgba(0,0,0,.07)}
+  .panel label{font-size:13px; color:var(--faint); font-weight:700; display:block; margin:12px 0 6px}
+  .panel label:first-of-type{margin-top:0}
+  .panel input,.panel textarea{width:100%; padding:12px 14px; font-size:16px; font-family:inherit;
+    border:1.5px solid var(--line); border-radius:12px; background:#FAFBFA; color:var(--ink); outline:none}
+  .num{direction:ltr; text-align:right}
+  .row2{display:flex; gap:8px}
+  .row2>div:first-child{flex:1.4}
+  .row2>div:last-child{flex:1}
+  .cur{display:flex; border:1.5px solid var(--line); border-radius:12px; overflow:hidden}
+  .cur button{flex:1; padding:12px 0; border:none; font:700 14px Tahoma; background:#FAFBFA;
+    color:var(--faint); cursor:pointer}
+  .approx{font-size:12.5px; color:var(--gold); font-weight:700; margin-top:8px}
+  .actions{display:flex; gap:8px; margin-top:14px}
+  .actions .ok{flex:1; color:#fff; border:none; border-radius:12px; padding:13px 0;
+    font:800 15px Tahoma; cursor:pointer}
+  .actions .no{background:#EEF1EE; color:var(--faint); border:none; border-radius:12px;
+    padding:13px 18px; font:700 14px Tahoma; cursor:pointer}
+
+  .item{background:var(--card); border:1.5px solid var(--line); border-radius:14px;
+    padding:12px 14px; margin-bottom:8px}
+  .item .top{display:flex; align-items:baseline}
+  .item .nm{flex:1; font-weight:800; font-size:15px}
+  .item .usd{font-weight:800; direction:ltr; font-variant-numeric:tabular-nums}
+  .item .meta{font-size:12px; color:var(--faint); margin-top:3px}
+  .item .nt{font-size:12.5px; margin-top:6px; background:#F6F8F5; border-radius:8px; padding:6px 10px}
+  .item .btns{display:flex; gap:6px; margin-top:8px}
+  .item .btns button{border:none; border-radius:8px; padding:6px 14px; font:700 12.5px Tahoma; cursor:pointer}
+  .b-edit{background:#EEF3EE; color:var(--green)}
+  .b-del{background:#FBEFEF; color:var(--red)}
+  .b-yes{background:var(--red); color:#fff}
+  .b-no{background:#EEF1EE; color:var(--faint)}
+
+  .empty{text-align:center; padding:44px 20px; color:var(--faint); background:var(--card);
+    border-radius:16px; border:1.5px dashed var(--line)}
+  .empty .ic{font-size:30px; margin-bottom:8px}
+
+  .toast{position:fixed; bottom:18px; right:50%; transform:translateX(50%); background:var(--ink);
+    color:#fff; border-radius:999px; padding:8px 18px; font-size:13px;
+    box-shadow:0 6px 18px rgba(0,0,0,.25); opacity:0; transition:opacity .25s; pointer-events:none}
+  .toast.show{opacity:1}
+
+  #lock{position:fixed;inset:0;background:linear-gradient(160deg,#123B2A,#0C271C);z-index:99;
+    display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;padding:24px}
+  #lock .lic{width:84px;height:84px;border-radius:22px;background:rgba(255,255,255,.08);
+    display:grid;place-items:center;font-size:40px;color:#FFF9E0;border:1px dashed rgba(234,243,236,.35)}
+  #lock h2{color:#EAF3EC;font-size:18px;margin:0;font-weight:800}
+  #lock p{color:rgba(234,243,236,.6);font-size:12.5px;margin:0}
+  #lock input{width:200px;padding:14px;font-size:24px;letter-spacing:8px;text-align:center;
+    direction:ltr;border:none;border-radius:14px;background:rgba(255,255,255,.12);color:#fff;outline:none}
+  #lock input::placeholder{letter-spacing:2px;font-size:14px;color:rgba(255,255,255,.4)}
+  #lock button{background:#FFF9E0;color:#123B2A;border:none;border-radius:14px;
+    padding:13px 44px;font:800 15px Tahoma;cursor:pointer}
+  #lock .err{color:#F5B7B1;font-size:13px;font-weight:700;min-height:18px}
+  #lock.shake input{animation:sh .35s}
+  @keyframes sh{0%,100%{transform:translateX(0)}25%{transform:translateX(-8px)}75%{transform:translateX(8px)}}
+</style>
+</head>
+<body>
+<div id="lock">
+  <div class="lic">$</div>
+  <h2>پارەکانم</h2>
+  <p>بۆ کردنەوە پاسۆردەکە بنووسە</p>
+  <input id="pinInput" type="password" inputmode="numeric" maxlength="10" placeholder="پاسۆرد">
+  <div class="err" id="pinErr"></div>
+  <button id="pinBtn">کردنەوە</button>
+</div>
+<div class="wrap">
+  <div class="note">
+    <div class="cap">سامانی ڕاستەقینەم</div>
+    <div class="big" id="net">$0</div>
+    <div class="sub">= پارەکانم + قەرزارەکانم − قەرزەکانی من</div>
+    <div class="mini">
+      <div><div class="l">پارەکانم</div><div class="v" id="tCash">$0</div></div>
+      <div><div class="l">قەرزارمن</div><div class="v" id="tOwed">$0</div></div>
+      <div><div class="l">قەرزارم</div><div class="v" id="tIOwe">$0</div></div>
+    </div>
+  </div>
+
+  <div class="rate">
+    <div class="t">نرخی دۆلار<small>١ دۆلار = چەند دینار</small></div>
+    <input type="number" inputmode="numeric" id="rate" value="1410">
+  </div>
+
+  <div class="tabs" id="tabs"></div>
+
+  <div class="head">
+    <div class="t"><b id="secTitle"></b><small id="secHint"></small></div>
+    <button class="add" id="addBtn">+ زیادکردن</button>
+  </div>
+
+  <div id="formBox" style="display:none" class="panel">
+    <div style="font-weight:800; margin-bottom:12px" id="formTitle"></div>
+    <label id="nameLabel">ناو</label>
+    <input id="fName" placeholder="ناو بنووسە">
+    <div class="row2" style="margin-top:12px">
+      <div>
+        <label style="margin-top:0">بڕی پارە</label>
+        <input class="num" id="fAmount" type="number" inputmode="decimal" placeholder="0">
+      </div>
+      <div>
+        <label style="margin-top:0">دراو</label>
+        <div class="cur">
+          <button id="curIQD">دینار</button>
+          <button id="curUSD">دۆلار</button>
+        </div>
+      </div>
+    </div>
+    <div class="approx" id="approx" style="display:none"></div>
+    <label>بەروار</label>
+    <input id="fDate" type="date">
+    <label>وردەکاری</label>
+    <textarea id="fNote" rows="2" placeholder="تێبینی، هۆکار، شایەت..."></textarea>
+    <div class="actions">
+      <button class="ok" id="saveBtn">پاشەکەوتکردن</button>
+      <button class="no" id="cancelBtn">هەڵوەشاندنەوە</button>
+    </div>
+  </div>
+
+  <div id="list"></div>
+</div>
+<div class="toast" id="toast"></div>
+
+<script>
+// ── Lock ──
+const PIN='172002';
+function tryUnlock(){
+  const v=document.getElementById('pinInput').value;
+  if(v===PIN){
+    document.getElementById('lock').style.display='none';
+  }else{
+    const l=document.getElementById('lock');
+    document.getElementById('pinErr').textContent='پاسۆرد هەڵەیە';
+    document.getElementById('pinInput').value='';
+    l.classList.remove('shake');void l.offsetWidth;l.classList.add('shake');
+  }
+}
+document.getElementById('pinBtn').onclick=tryUnlock;
+document.getElementById('pinInput').addEventListener('keyup',e=>{if(e.key==='Enter')tryUnlock();});
+document.getElementById('pinInput').addEventListener('input',e=>{
+  if(e.target.value===PIN)tryUnlock();
+});
+
+const KEY='money-tracker-v1';
+// storage shim: inside Claude app use window.storage, downloaded/standalone use localStorage
+const store={
+  async get(k){
+    if(window.storage&&window.storage.get)return await window.storage.get(k);
+    const v=localStorage.getItem(k);return v?{key:k,value:v}:null;
+  },
+  async set(k,v){
+    if(window.storage&&window.storage.set)return await window.storage.set(k,v);
+    localStorage.setItem(k,v);return{key:k,value:v};
+  }
+};
+const TABS=[
+  {id:'owedToMe',label:'قەرزارەکانم',hint:'ئەوانەی قەرزارتن',color:'var(--green)',cc:'#14532D',nameLabel:'ناوی کەسەکە',ph:'ناو بنووسە'},
+  {id:'iOwe',label:'قەرزەکانی من',hint:'ئەوانەی تۆ قەرزاریانیت',color:'var(--red)',cc:'#8C2F2F',nameLabel:'ناوی کەسەکە',ph:'ناو بنووسە'},
+  {id:'locations',label:'شوێنی پارە',hint:'پارەکەت لە کوێیە',color:'var(--gold)',cc:'#8A6A1F',nameLabel:'شوێن',ph:'نموونە: ماڵەوە، بانک...'}
+];
+let data={rate:1410,owedToMe:[],iOwe:[],locations:[]};
+let tab='owedToMe', editId=null, cur='IQD', confirmId=null, saveTimer=null;
+
+const $=id=>document.getElementById(id);
+const fmt=n=>'$'+(Math.round(n*100)/100).toLocaleString('en-US',{maximumFractionDigits:2});
+const fnum=n=>Number(n).toLocaleString('en-US');
+const uid=()=>Date.now().toString(36)+Math.random().toString(36).slice(2,6);
+const toUSD=e=>e.currency==='IQD'?Number(e.amount)/Number(data.rate||1):Number(e.amount);
+const sum=l=>l.reduce((a,e)=>a+toUSD(e),0);
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+
+function toast(m){const t=$('toast');t.textContent=m;t.classList.add('show');
+  setTimeout(()=>t.classList.remove('show'),1500);}
+
+function persist(){
+  clearTimeout(saveTimer);
+  saveTimer=setTimeout(async()=>{
+    try{await store.set(KEY,JSON.stringify(data));toast('پاشەکەوت کرا ✓');}
+    catch(e){toast('پاشەکەوت سەرکەوتوو نەبوو');}
+  },400);
+}
+
+async function load(){
+  try{
+    const r=await store.get(KEY);
+    if(r&&r.value)data=Object.assign({rate:1410,owedToMe:[],iOwe:[],locations:[]},JSON.parse(r.value));
+  }catch(e){/* first run */}
+  $('rate').value=data.rate;
+  render();
+}
+
+function active(){return TABS.find(t=>t.id===tab);}
+
+function render(){
+  // totals
+  const tOwed=sum(data.owedToMe),tIOwe=sum(data.iOwe),tCash=sum(data.locations);
+  $('net').textContent=fmt(tCash+tOwed-tIOwe);
+  $('tCash').textContent=fmt(tCash);
+  $('tOwed').textContent=fmt(tOwed);
+  $('tIOwe').textContent=fmt(-tIOwe);
+  // tabs
+  $('tabs').innerHTML=TABS.map(t=>
+    `<button class="${t.id===tab?'on':''}" style="${t.id===tab?'color:'+t.cc:''}" onclick="setTab('${t.id}')">${t.label}</button>`).join('');
+  // section
+  const a=active(), list=data[tab];
+  $('secTitle').textContent=a.label; $('secTitle').style.color=a.cc;
+  $('secHint').innerHTML=a.hint+' · کۆ: <b style="direction:ltr;unicode-bidi:embed">'+fmt(sum(list))+'</b>';
+  $('addBtn').style.background=a.cc;
+  // list
+  if(!list.length){
+    $('list').innerHTML='<div class="empty"><div class="ic">📒</div>هیچ تۆمارێک نییە — دوگمەی «زیادکردن» دابگرە</div>';
+  }else{
+    $('list').innerHTML=list.map(e=>`
+      <div class="item">
+        <div class="top"><div class="nm">${esc(e.name)}</div>
+          <div class="usd" style="color:${a.cc}">${fmt(toUSD(e))}</div></div>
+        <div class="meta">${fnum(e.amount)} ${e.currency==='IQD'?'دینار':'دۆلار'} · ${esc(e.date||'—')}</div>
+        ${e.note?`<div class="nt">${esc(e.note)}</div>`:''}
+        <div class="btns">
+          <button class="b-edit" onclick="editEntry('${e.id}')">دەستکاری</button>
+          ${confirmId===e.id
+            ?`<button class="b-yes" onclick="delEntry('${e.id}')">دڵنیام، بیسڕەوە</button>
+              <button class="b-no" onclick="confirmId=null;render()">نەخێر</button>`
+            :`<button class="b-del" onclick="confirmId='${e.id}';render()">سڕینەوە</button>`}
+        </div>
+      </div>`).join('');
+  }
+}
+
+function setTab(t){tab=t;confirmId=null;closeForm();render();}
+
+function setCur(c){
+  cur=c;const a=active();
+  $('curIQD').style.background=c==='IQD'?a.cc:'#FAFBFA';
+  $('curIQD').style.color=c==='IQD'?'#fff':'var(--faint)';
+  $('curUSD').style.background=c==='USD'?a.cc:'#FAFBFA';
+  $('curUSD').style.color=c==='USD'?'#fff':'var(--faint)';
+  updateApprox();
+}
+
+function updateApprox(){
+  const amt=Number($('fAmount').value), rt=Number($('rate').value);
+  if(cur==='IQD'&&amt>0&&rt>0){
+    $('approx').style.display='block';
+    $('approx').textContent='≈ '+fmt(amt/rt)+' بە دۆلار';
+  }else $('approx').style.display='none';
+}
+
+function openForm(entry){
+  const a=active();
+  editId=entry?entry.id:null;
+  $('formTitle').textContent=editId?'دەستکاریکردن':'تۆمارێکی نوێ';
+  $('nameLabel').textContent=a.nameLabel;
+  $('fName').placeholder=a.ph;
+  $('fName').value=entry?entry.name:'';
+  $('fAmount').value=entry?entry.amount:'';
+  $('fDate').value=entry?entry.date:new Date().toISOString().slice(0,10);
+  $('fNote').value=entry?entry.note:'';
+  $('saveBtn').style.background=a.cc;
+  $('saveBtn').textContent=editId?'نوێکردنەوە':'پاشەکەوتکردن';
+  setCur(entry?entry.currency:'IQD');
+  $('formBox').style.display='block';
+  $('fName').focus();
+}
+function closeForm(){$('formBox').style.display='none';editId=null;}
+
+function editEntry(id){
+  const e=data[tab].find(x=>x.id===id);
+  if(e)openForm(e);
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+function delEntry(id){
+  data[tab]=data[tab].filter(x=>x.id!==id);
+  confirmId=null;persist();render();
+}
+
+$('addBtn').onclick=()=>openForm(null);
+$('cancelBtn').onclick=closeForm;
+$('curIQD').onclick=()=>setCur('IQD');
+$('curUSD').onclick=()=>setCur('USD');
+$('fAmount').oninput=updateApprox;
+$('rate').oninput=function(){
+  data.rate=this.value===''?'':Number(this.value);
+  persist();render();updateApprox();
+};
+$('saveBtn').onclick=()=>{
+  const name=$('fName').value.trim(), amount=Number($('fAmount').value);
+  if(!name||!(amount>0)){toast('ناو و بڕی پارە پێویستن');return;}
+  const entry={id:editId||uid(),name,amount,currency:cur,date:$('fDate').value,note:$('fNote').value.trim()};
+  const list=data[tab];
+  data[tab]=editId?list.map(e=>e.id===editId?entry:e):[entry,...list];
+  persist();closeForm();render();
+};
+
+load();
+</script>
+</body>
+</html>
